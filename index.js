@@ -132,7 +132,7 @@ async function loadMealDetail(id) {
         <div class="meal-info">
           <h3>${meal.strMeal}</h3>
           <p><strong>CATEGORY:</strong> ${meal.strCategory}</p>
-          <p><strong>Source:</strong> <a href="${meal.strSource}" target="_blank">${meal.strSource}</a></p>
+          <p><strong>Source:</strong> <a href="${meal.strSource}" target="_blank">${meal.strSource}</a> </p>
           <p><strong>Area:</strong> ${meal.strArea}</p>
           <p><strong>Tags:</strong><span class="str-tags"> ${meal.strTags || "N/A"}</span></p>
 
