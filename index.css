@@ -54,7 +54,7 @@ header {
 .search-box input {
   padding: 0.5rem;
   width: 300px;
-  border-radius: 20px;
+  border-radius: 20px ;
   border: none;
   height: 40px;
 }
