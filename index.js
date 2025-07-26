@@ -94,7 +94,7 @@ function displayMeals(meals, title = "Meals", extraContent = "") {
     : `
       <div style="grid-column: 1/-1; text-align: center; padding: 2rem;">
         <h3 class="section-title">${title}</h3>
-        <p>No meals found.</p>
+        <p>No meals found. </p>
       </div>
     `;
 }
