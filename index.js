@@ -157,7 +157,7 @@ async function loadMealDetail(id) {
         ${meal.strInstructions
         .split("\n")
         .filter(p => p.trim())
-        .map(p => `<p><i class="fa-solid fa-circle-check"></i> ${p}</p>`)
+        .map(p => `<p><i class="fa-solid fa-circle-check"> </i> ${p}</p>`)
         .join("")}
       </div>
 
